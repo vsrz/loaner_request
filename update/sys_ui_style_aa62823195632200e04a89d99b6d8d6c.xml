@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <element>u_item_type</element>
+        <name>x_snc_loaner_reque_loaner_request</name>
+        <style>background-color:PapayaWhip; color: brown;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-08 05:30:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>aa62823195632200e04a89d99b6d8d6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_loaner_reque_loaner_request</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">1d596fe195232200e04a89d99b6d8d62</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner Request">1d596fe195232200e04a89d99b6d8d62</sys_scope>
+        <sys_update_name>sys_ui_style_aa62823195632200e04a89d99b6d8d6c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-08 05:30:27</sys_updated_on>
+        <value>u_cmdb_ci_projector</value>
+    </sys_ui_style>
+</record_update>

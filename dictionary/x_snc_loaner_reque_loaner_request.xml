@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Loaner Request" max_length="40" name="x_snc_loaner_reque_loaner_request" type="collection"/>
+    <element extends="task" label="Loaner Request" max_length="40" name="x_snc_loaner_reque_loaner_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="sc" label="Depot" max_length="40" name="u_depot" type="string">
+            <choice>
+                <element label="New York" sequence="0" value="ny"/>
+                <element label="Buenos Aires" sequence="1" value="ba"/>
+                <element label="London" sequence="2" value="london"/>
+                <element label="Santa Clara" sequence="3" value="sc"/>
+                <element label="Singapore" sequence="4" value="sin"/>
+                <element label="Sydney" sequence="5" value="syd"/>
+                <element label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element label="End date" mandatory="true" max_length="40" name="u_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="u_cmdb_ci_mobile_device" label="Item type" max_length="40" name="u_item_type" type="string">
+            <choice>
+                <element label="Laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element label="Mobile Phone" sequence="1" value="u_cmdb_ci_mobile_device"/>
+                <element label="Projector" sequence="2" value="u_cmdb_ci_projector"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="u_location_to_be_used" type="string"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element label="Start date" mandatory="true" max_length="40" name="u_start_date" type="glide_date"/>
+    </element>
 </database>
