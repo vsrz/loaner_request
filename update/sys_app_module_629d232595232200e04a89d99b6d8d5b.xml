@@ -19,7 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_snc_loaner_reque_loaner_request_user,x_snc_loaner_reque.loaner_request_user</roles>
+        <roles>x_snc_loaner_reque_loaner_request_user,x_snc_loaner_reque.loaner_request_user,x_snc_loaner_reque.admin</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>629d232595232200e04a89d99b6d8d5b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">1d596fe195232200e04a89d99b6d8d62</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Loaner Request">1d596fe195232200e04a89d99b6d8d62</sys_scope>
         <sys_update_name>sys_app_module_629d232595232200e04a89d99b6d8d5b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-12-08 04:48:40</sys_updated_on>
+        <sys_updated_on>2016-12-08 22:38:39</sys_updated_on>
         <timeline_page/>
         <title>All</title>
         <uncancelable>false</uncancelable>
